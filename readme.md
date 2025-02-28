@@ -189,10 +189,10 @@ I will write a simple function that counts the Array's lenght:
 	$tab= array(10,20,20,30);
 	$nb=array_unshift($tab,50,40);	//add to the beginning of the array
 	$newnb=array_push($tab,70,20);	//add to the end of the array
-	$suppr= array_pop($tab);		//pop an element from the end of the array
-	$suppr= array_shift($tab);		//pop an element from the beginning of the array
-	unset($tab[4]);					// pop the exact element with it index
-	$tab = array_unique($tab);		// remove duplicated elements from an array
+	$suppr= array_pop($tab);	//pop an element from the end of the array
+	$suppr= array_shift($tab);	//pop an element from the beginning of the array
+	unset($tab[4]);			// pop the exact element with it index
+	$tab = array_unique($tab);	// remove duplicated elements from an array
 ```
 
 ## 
